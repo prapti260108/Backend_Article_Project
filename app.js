@@ -18,6 +18,6 @@ app.get("/",(req,res)=>{
    res.render("navbar",{ user: req.user })
 })
 
-app.listen(9871,()=>{
-    console.log("server is running on 9871")
+app.listen(8811,()=>{
+    console.log("server is running on 8811")
 })
